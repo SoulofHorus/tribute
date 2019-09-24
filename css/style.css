@@ -1,3 +1,7 @@
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
 nav {
   background-color: #333;
   padding: 1em;
@@ -18,11 +22,17 @@ header {
 }
 .splash {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .splash-txt {
   align-self: center;
+  font-size: 200%;
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 .splash-img {
-
+  flex-basis: 25%;
 }
