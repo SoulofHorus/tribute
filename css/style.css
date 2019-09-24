@@ -8,3 +8,21 @@ nav {
 nav a {
   color: #ccc;
 }
+img {
+  width: 100%
+  height: auto;
+}
+header {
+  background-color: #ccc;
+  padding: 2em;
+}
+.splash {
+  display: flex;
+  justify-content: space-around;
+}
+.splash-txt {
+  align-self: center;
+}
+.splash-img {
+
+}
