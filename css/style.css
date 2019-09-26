@@ -41,3 +41,14 @@ article div {
   color: #EEE;
   padding: 1em;
 }
+article {
+  display: grid;
+  grid-gap: .25em;
+}
+.feat1{grid-area:feat1;}
+.feat2{grid-area:feat2;}
+.feat3{grid-area:feat3;}
+.wall{grid-area:wall;}
+.blog1{grid-area:blog1;}
+.blog2{grid-area:blog2;}
+.blog3{grid-area:blog3;}
