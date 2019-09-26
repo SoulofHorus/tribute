@@ -44,7 +44,13 @@ article div {
 article {
   display: grid;
   grid-gap: .25em;
+  grid-template-areas:
+  "feat1 feat2 feat3"
+  "wall blog1 blog1"
+  "wall blog2 blog2"
+  "wall blog3 blog3";
 }
+
 .feat1{grid-area:feat1;}
 .feat2{grid-area:feat2;}
 .feat3{grid-area:feat3;}
@@ -52,3 +58,10 @@ article {
 .blog1{grid-area:blog1;}
 .blog2{grid-area:blog2;}
 .blog3{grid-area:blog3;}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  padding: 1em;
+}
