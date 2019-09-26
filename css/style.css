@@ -36,3 +36,8 @@ header {
 .splash-img {
   flex-basis: 25%;
 }
+article div {
+  background-color: #999;
+  color: #EEE;
+  padding: 1em;
+}
