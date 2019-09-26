@@ -37,8 +37,6 @@ header {
   flex-basis: 25%;
 }
 article div {
-  background-color: #999;
-  color: #EEE;
   padding: 1em;
 }
 article {
@@ -64,4 +62,17 @@ footer {
   color: #eee;
   text-align: center;
   padding: 1em;
+}
+@media screen and (max-width: 767px) {
+  article {
+    grid-template-areas:
+    "feat1"
+    "feat2"
+    "feat3"
+    "blog1"
+    "blog2"
+    "blog3"
+    "wall";
+  }
+  .wall {display: none;}
 }
