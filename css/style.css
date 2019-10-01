@@ -4,9 +4,7 @@
   --mid: #AAA;
   --accent: #EE0000;
 }
-.materal-icon {
-
-}
+.material-icons {font-size: 72px;}
 
 body {
   background-color: red;
