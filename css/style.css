@@ -23,6 +23,17 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+.menu-links {
+  flex-basis: 66%;
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar {
+  flex-basis: 33%;
+  display: flex;
+  padding-left: 0.25em;
+  justify-content: flex-end;
+}
 nav a {
   color: #ccc;
 }
