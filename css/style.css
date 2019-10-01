@@ -1,3 +1,13 @@
+:root {
+  --light: #CCC;
+  --dark: #000;
+  --mid: #AAA;
+  --accent: #EE0000;
+}
+.materal-icon {
+
+}
+
 body {
   background-color: red;
   font-weight: 300;
@@ -8,8 +18,10 @@ body {
 
 h1, h2 {
   font: 'Alegreya', serif;
+  font-size: 75px;
   padding: .1em;
   margin: .1em;
+  color: var(--accent);
 }
 h3 {
   font: 'Monsterrat', sans-serif;
@@ -17,7 +29,7 @@ h3 {
   padding-bottom: 0.5em;
 }
 nav {
-  background-color: #333;
+  background-color: var(--dark);
   padding: 1em;
   font-size: 125%;
   display: flex;
@@ -35,33 +47,36 @@ nav {
   justify-content: flex-end;
 }
 nav a {
-  color: #ccc;
+  color: var(--accent);
 }
 img {
   width: 100%
   height: auto;
 }
 header {
-  background-color: #ccc;
+  background-color: var(--mid);
   padding: 2em;
+  color: var(--dark);
 }
 .splash {
   display: flex;
   justify-content: space-between;
+  background-image: url("../img/stonebank.png");
+  background-repeat: no-repeat;
+  padding: 10em 0;
+  background-position: right;
   font-weight: bold;
 }
 .splash-txt {
   align-self: center;
-  font-size: 200%;
-  flex-basis: 75%;
+  font-size: 175%;
+  flex-basis: 66%;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
 }
-.splash-img {
-  flex-basis: 25%;
-}
+
 article div {
   padding: 1em;
 }
@@ -84,8 +99,8 @@ article {
 .blog3{grid-area:blog3;}
 
 footer {
-  background-color: #333;
-  color: #eee;
+  background-color: var(--dark);
+  color: var(--light);
   text-align: center;
   padding: 1em;
 }
