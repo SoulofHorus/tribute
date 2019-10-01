@@ -4,7 +4,10 @@ h1, h2 {
 }
 h3 {
   font: 'Monsterrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 200px;
+}
+body {
+  background-color: red;
 }
 nav {
   background-color: #333;
@@ -27,6 +30,7 @@ header {
 .splash {
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 .splash-txt {
   align-self: center;
