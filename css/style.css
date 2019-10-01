@@ -56,6 +56,14 @@ header {
   padding: 2em;
   color: var(--dark);
 }
+figure {
+  width: 50%;
+  height: auto;
+}
+figcaption {
+  font-style: italic;
+  font-weight: bold;
+}
 .splash {
   display: flex;
   justify-content: space-between;
