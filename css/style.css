@@ -7,8 +7,9 @@ body {
 }
 
 h1, h2 {
-  padding: 0;
-  margin: 0;
+  font: 'Alegreya', serif;
+  padding: .1em;
+  margin: .1em;
 }
 h3 {
   font: 'Monsterrat', sans-serif;
