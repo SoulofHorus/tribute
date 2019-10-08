@@ -54,7 +54,7 @@ nav a {
 }
 img {
   width: 100%
-  height: auto;
+  height: 75%;
 }
 header {
   background-color: var(--mid);
