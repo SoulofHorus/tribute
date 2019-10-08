@@ -28,6 +28,7 @@ h3 {
 }
 p {
   font: 'Monsterrat', sans-serif;
+  font-size: 30px;
   padding: 0.25em;
   margin: 0.1em;
 }
@@ -63,7 +64,7 @@ header {
 }
 figure {
   width: 20%;
-  height: auto;
+  height: 20%;
 }
 figcaption {
   font-style: italic;
