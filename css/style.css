@@ -28,6 +28,8 @@ h3 {
 }
 p {
   font: 'Monsterrat', sans-serif;
+  padding: 0.25em;
+  margin: 0.1em;
 }
 nav {
   background-color: var(--dark);
