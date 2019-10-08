@@ -26,6 +26,9 @@ h3 {
   font-size: 50px;
   padding-bottom: 0.5em;
 }
+p {
+  font: 'Monsterrat', sans-serif;
+}
 nav {
   background-color: var(--dark);
   padding: 1em;
