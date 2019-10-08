@@ -119,12 +119,12 @@ footer {
   article {
     grid-template-areas:
     "wall"
-    "feat1"
-    "feat2"
-    "feat3"
     "blog1"
+    "feat1"
     "blog2"
-    "blog3";
+    "feat2"
+    "blog3"
+    "feat3";
   }
   .wall {display: none;}
 }
