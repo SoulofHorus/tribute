@@ -118,13 +118,13 @@ footer {
 @media screen and (max-width: 767px) {
   article {
     grid-template-areas:
+    "wall"
     "feat1"
     "feat2"
     "feat3"
     "blog1"
     "blog2"
-    "blog3"
-    "wall";
+    "blog3";
   }
   .wall {display: none;}
 }
