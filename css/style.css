@@ -96,9 +96,9 @@ article {
   grid-gap: .25em;
   grid-template-areas:
   "feat1 feat2 feat3"
-  "wall blog1 blog1"
-  "wall blog2 blog2"
-  "wall blog3 blog3";
+  "feat4 blog1 blog1"
+  "blog2 blog2"
+  "blog3 blog3";
 }
 
 .feat1{grid-area:feat1;}
@@ -120,11 +120,10 @@ footer {
     grid-template-areas:
     "feat1"
     "blog1"
-    "wall"
+    "feat4"
     "blog2"
     "feat2"
     "blog3"
     "feat3";
   }
-  .wall {display: none;}
 }
