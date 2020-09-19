@@ -26,6 +26,12 @@ h3 {
   font-size: 50px;
   padding-bottom: 0.5em;
 }
+p {
+  font: 'Monsterrat', sans-serif;
+  font-size: 20px;
+  padding: 0.25em;
+  margin: 0.1em;
+}
 nav {
   background-color: var(--dark);
   padding: 1em;
@@ -45,20 +51,20 @@ nav {
   justify-content: flex-end;
 }
 nav a {
-  color: var(--accent);
+  color: var(--light);
 }
 img {
   width: 100%
-  height: auto;
+  height: 75%;
 }
 header {
   background-color: var(--mid);
   padding: 2em;
-  color: var(--dark);
+  color: var(--light);
 }
 figure {
-  width: 50%;
-  height: auto;
+  width: 20%;
+  height: 20%;
 }
 figcaption {
   font-style: italic;
@@ -114,12 +120,20 @@ footer {
   article {
     grid-template-areas:
     "feat1"
-    "feat2"
-    "feat3"
     "blog1"
+    "wall"
     "blog2"
+    "feat2"
     "blog3"
-    "wall";
+    "feat3";
   }
-  .wall {display: none;}
+}
+@media screen and (max-width: 992px) {
+  article {
+    grid-template-areas:
+    "feat1 blog1"
+    "wall"
+    "blog2 feat2"
+    "blog3 feat3";
+  }
 }
